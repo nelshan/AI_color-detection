@@ -3,7 +3,7 @@ import pandas as pd
 from sklearn.neighbors import KNeighborsClassifier
 
 # Reading the image with opencv
-img = cv2.imread('colorpic.jpg')
+img = cv2.imread('Put the image that u want find the color of. the image should be on same folder')
 
 # Reading csv file with pandas and giving names to each column
 index=["color","color_name","hex","R","G","B"]
